@@ -22,7 +22,8 @@ docker run --rm -it stevenhart/softsearch perl softsearch/script/SoftSearch.pl [
 	-e		disable strict quality filtering of base qualities in soft-clipped reads [no]
 	-blacklist	areas of the genome to skip calling.  Requires -genome_file
 	-genome_file	tab seperated value of chromosome name and length.  Only used with -blacklist option
-	````
+
+````
 
 ## Option 2. Create an environment to launch the container using Docker-Machine.
 
